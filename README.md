@@ -31,3 +31,25 @@ python app.py
 
 Ouvre ensuite ton navigateur sur :
 http://127.0.0.1:8050
+
+## Technologies
+
+Dash
+Cytoscape
+Bootstrap Quartz
+Python 3.12+
+
+## Description
+
+Le portail SemantikosLab réunit plusieurs applications interactives d’analyse sémantique et symbolique :
+
+Tarot SemantikosLab — étude lexicale et archétypale du Tarot de Rider–Waite
+
+(à venir) Textes fondateurs — exploration NLP des corpus religieux et mythologiques
+
+(à venir) Astrologie et symbolisme — analyse des structures narratives et planétaires
+
+Auteur
+
+© 2025 Amandine Velt — SemantikosLab
+https://semantikoslab.amandinevelt.fr
