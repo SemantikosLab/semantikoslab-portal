@@ -28,3 +28,6 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
+Ouvre ensuite ton navigateur sur :
+http://127.0.0.1:8050
