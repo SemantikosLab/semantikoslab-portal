@@ -13,6 +13,16 @@ body {
 }
 html, body { animation: aurora 20s ease-in-out infinite; }
 
+img {
+  animation: breathing 6s ease-in-out infinite;
+}
+
+@keyframes breathing {
+  0%   { filter: drop-shadow(0 0 4px rgba(255, 215, 130, 0.4)); }
+  50%  { filter: drop-shadow(0 0 12px rgba(255, 215, 130, 0.8)); }
+  100% { filter: drop-shadow(0 0 4px rgba(255, 215, 130, 0.4)); }
+}
+
 /* texture légère pour le fond */
 body::before {
   content: "";

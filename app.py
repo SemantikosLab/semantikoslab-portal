@@ -99,10 +99,21 @@ app.layout = html.Div(
             },
             children=[
                 dbc.Container([
-                    html.H1("☽ SemantikosLab ☾",
-                            className="fw-bold mb-3",
-                            style={"letterSpacing": "1px"}),
-
+                    
+                    # Logo + Titre principal
+                    html.Div([
+                        html.Img(
+                            src="/assets/semantikoslab-filigrane-arbre-de-vie.png",
+                            style={
+                                "height": "100px",
+                                "marginBottom": "15px",
+                                "filter": "drop-shadow(0px 0px 8px rgba(250, 210, 120, 0.4))"
+                            }
+                        ),
+                        html.H1("☽ SemantikosLab ☾",
+                                className="text-center mb-2 fw-bold",
+                                style={"letterSpacing": "1px"})
+                    ], className="text-center"),
                     html.P("Laboratoire d’exploration sémantique des traditions symboliques — textes fondateurs, Tarot, astrologie — à la croisée de la linguistique, de l’IA et de la civilisation.",
                            className="mb-5",
                            style={"maxWidth": "800px", "margin": "0 auto", "opacity": 0.9}),
